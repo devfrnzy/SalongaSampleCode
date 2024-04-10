@@ -7,13 +7,62 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F125CB2F2BC61119009CB373 /* SongListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F125CB2E2BC61119009CB373 /* SongListViewModel.swift */; };
+		F125CB312BC6145B009CB373 /* SongItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F125CB302BC6145B009CB373 /* SongItemView.swift */; };
+		F125CB332BC69227009CB373 /* GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F125CB322BC69227009CB373 /* GameTests.swift */; };
+		F125CB342BC69244009CB373 /* GameSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F155B7F52BC53BA7005905EE /* GameSettings.swift */; };
+		F125CB352BC6928A009CB373 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = F155B7ED2BC5361C005905EE /* Game.swift */; };
+		F125CB362BC69646009CB373 /* WordBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = F155B7F12BC53829005905EE /* WordBank.swift */; };
+		F125CB372BC6964C009CB373 /* WordGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F155B7F32BC53A94005905EE /* WordGenerator.swift */; };
+		F125CB382BC69651009CB373 /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F155B8122BC55396005905EE /* RealmManager.swift */; };
+		F125CB392BC6966C009CB373 /* TickTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F155B7EF2BC53661005905EE /* TickTimer.swift */; };
+		F125CB3B2BC6969A009CB373 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = F155B7F72BC53C58005905EE /* Player.swift */; };
+		F125CB3D2BC69940009CB373 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = F125CB3C2BC69940009CB373 /* Realm */; };
+		F125CB3F2BC69940009CB373 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F125CB3E2BC69940009CB373 /* RealmSwift */; };
+		F125CB402BC69E6F009CB373 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = F155B7EB2BC53547005905EE /* Word.swift */; };
+		F125CB432BC6B576009CB373 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = F125CB422BC6B576009CB373 /* Readme.md */; };
 		F155B7B42BC463AC005905EE /* SampleCodeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F155B7B32BC463AC005905EE /* SampleCodeApp.swift */; };
-		F155B7B62BC463AC005905EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F155B7B52BC463AC005905EE /* ContentView.swift */; };
 		F155B7B82BC463AE005905EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F155B7B72BC463AE005905EE /* Assets.xcassets */; };
 		F155B7BB2BC463AE005905EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F155B7BA2BC463AE005905EE /* Preview Assets.xcassets */; };
 		F155B7C52BC463AE005905EE /* SampleCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F155B7C42BC463AE005905EE /* SampleCodeTests.swift */; };
 		F155B7CF2BC463AE005905EE /* SampleCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F155B7CE2BC463AE005905EE /* SampleCodeUITests.swift */; };
 		F155B7D12BC463AE005905EE /* SampleCodeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F155B7D02BC463AE005905EE /* SampleCodeUITestsLaunchTests.swift */; };
+		F155B7DE2BC46441005905EE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F155B7DD2BC46441005905EE /* HomeView.swift */; };
+		F155B7E02BC467A6005905EE /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F155B7DF2BC467A6005905EE /* AppCoordinator.swift */; };
+		F155B7E22BC51D80005905EE /* CoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F155B7E12BC51D80005905EE /* CoordinatorView.swift */; };
+		F155B7E42BC52597005905EE /* BannerAdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F155B7E32BC52597005905EE /* BannerAdView.swift */; };
+		F155B7E62BC52FB2005905EE /* GameFinishedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F155B7E52BC52FB2005905EE /* GameFinishedView.swift */; };
+		F155B7E82BC531F1005905EE /* CapsuleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F155B7E72BC531F1005905EE /* CapsuleButton.swift */; };
+		F155B7EA2BC53513005905EE /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F155B7E92BC53513005905EE /* GameView.swift */; };
+		F155B7EC2BC53547005905EE /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = F155B7EB2BC53547005905EE /* Word.swift */; };
+		F155B7EE2BC5361C005905EE /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = F155B7ED2BC5361C005905EE /* Game.swift */; };
+		F155B7F02BC53661005905EE /* TickTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F155B7EF2BC53661005905EE /* TickTimer.swift */; };
+		F155B7F22BC53829005905EE /* WordBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = F155B7F12BC53829005905EE /* WordBank.swift */; };
+		F155B7F42BC53A94005905EE /* WordGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F155B7F32BC53A94005905EE /* WordGenerator.swift */; };
+		F155B7F62BC53BA7005905EE /* GameSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F155B7F52BC53BA7005905EE /* GameSettings.swift */; };
+		F155B7F82BC53C58005905EE /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = F155B7F72BC53C58005905EE /* Player.swift */; };
+		F155B7FE2BC53FD4005905EE /* GameSettingsPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = F155B7FD2BC53FD4005905EE /* GameSettingsPopup.swift */; };
+		F155B8002BC54467005905EE /* BackgroundVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F155B7FF2BC54467005905EE /* BackgroundVideoView.swift */; };
+		F155B8022BC54496005905EE /* LoopVideoPlayerUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F155B8012BC54496005905EE /* LoopVideoPlayerUIView.swift */; };
+		F155B8092BC54AC4005905EE /* PauseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F155B8082BC54AC4005905EE /* PauseView.swift */; };
+		F155B80B2BC54D1A005905EE /* AdTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = F155B80A2BC54D1A005905EE /* AdTracking.swift */; };
+		F155B80E2BC5536C005905EE /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = F155B80D2BC5536C005905EE /* Realm */; };
+		F155B8102BC5536C005905EE /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F155B80F2BC5536C005905EE /* RealmSwift */; };
+		F155B8132BC55396005905EE /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F155B8122BC55396005905EE /* RealmManager.swift */; };
+		F155B8152BC55492005905EE /* WordDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F155B8142BC55492005905EE /* WordDataManager.swift */; };
+		F155B8172BC55595005905EE /* Words.plist in Resources */ = {isa = PBXBuildFile; fileRef = F155B8162BC55595005905EE /* Words.plist */; };
+		F155B81E2BC55BE3005905EE /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F155B81B2BC55BE3005905EE /* Pacifico-Regular.ttf */; };
+		F155B81F2BC55BE3005905EE /* Fredoka-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F155B81C2BC55BE3005905EE /* Fredoka-Regular.ttf */; };
+		F155B8202BC55BE3005905EE /* Fredoka-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F155B81D2BC55BE3005905EE /* Fredoka-Medium.ttf */; };
+		F155B8232BC55BFA005905EE /* bgLoop.mov in Resources */ = {isa = PBXBuildFile; fileRef = F155B8222BC55BFA005905EE /* bgLoop.mov */; };
+		F1CA12142BC56A78006A427F /* CountdownTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CA12132BC56A78006A427F /* CountdownTimerView.swift */; };
+		F1CA12162BC56E31006A427F /* HowToPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CA12152BC56E31006A427F /* HowToPopup.swift */; };
+		F1CA12182BC56F73006A427F /* PopupTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CA12172BC56F73006A427F /* PopupTitle.swift */; };
+		F1CA121A2BC575F7006A427F /* PopupBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CA12192BC575F7006A427F /* PopupBackground.swift */; };
+		F1CA121C2BC5796F006A427F /* RoundSettingTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CA121B2BC5796F006A427F /* RoundSettingTextFieldStyle.swift */; };
+		F1CA121E2BC59640006A427F /* SongListPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CA121D2BC59640006A427F /* SongListPopup.swift */; };
+		F1CA12202BC596DD006A427F /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CA121F2BC596DD006A427F /* Song.swift */; };
+		F1CA12222BC598E0006A427F /* SongSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CA12212BC598E0006A427F /* SongSample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +83,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F125CB2E2BC61119009CB373 /* SongListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongListViewModel.swift; sourceTree = "<group>"; };
+		F125CB302BC6145B009CB373 /* SongItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongItemView.swift; sourceTree = "<group>"; };
+		F125CB322BC69227009CB373 /* GameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTests.swift; sourceTree = "<group>"; };
+		F125CB422BC6B576009CB373 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 		F155B7B02BC463AC005905EE /* SampleCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F155B7B32BC463AC005905EE /* SampleCodeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleCodeApp.swift; sourceTree = "<group>"; };
-		F155B7B52BC463AC005905EE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F155B7B72BC463AE005905EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F155B7BA2BC463AE005905EE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F155B7C02BC463AE005905EE /* SampleCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +96,41 @@
 		F155B7CA2BC463AE005905EE /* SampleCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F155B7CE2BC463AE005905EE /* SampleCodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleCodeUITests.swift; sourceTree = "<group>"; };
 		F155B7D02BC463AE005905EE /* SampleCodeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleCodeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F155B7DD2BC46441005905EE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F155B7DF2BC467A6005905EE /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		F155B7E12BC51D80005905EE /* CoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorView.swift; sourceTree = "<group>"; };
+		F155B7E32BC52597005905EE /* BannerAdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerAdView.swift; sourceTree = "<group>"; };
+		F155B7E52BC52FB2005905EE /* GameFinishedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameFinishedView.swift; sourceTree = "<group>"; };
+		F155B7E72BC531F1005905EE /* CapsuleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleButton.swift; sourceTree = "<group>"; };
+		F155B7E92BC53513005905EE /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		F155B7EB2BC53547005905EE /* Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
+		F155B7ED2BC5361C005905EE /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		F155B7EF2BC53661005905EE /* TickTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickTimer.swift; sourceTree = "<group>"; };
+		F155B7F12BC53829005905EE /* WordBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordBank.swift; sourceTree = "<group>"; };
+		F155B7F32BC53A94005905EE /* WordGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordGenerator.swift; sourceTree = "<group>"; };
+		F155B7F52BC53BA7005905EE /* GameSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSettings.swift; sourceTree = "<group>"; };
+		F155B7F72BC53C58005905EE /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		F155B7FD2BC53FD4005905EE /* GameSettingsPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSettingsPopup.swift; sourceTree = "<group>"; };
+		F155B7FF2BC54467005905EE /* BackgroundVideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundVideoView.swift; sourceTree = "<group>"; };
+		F155B8012BC54496005905EE /* LoopVideoPlayerUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopVideoPlayerUIView.swift; sourceTree = "<group>"; };
+		F155B8082BC54AC4005905EE /* PauseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PauseView.swift; sourceTree = "<group>"; };
+		F155B80A2BC54D1A005905EE /* AdTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdTracking.swift; sourceTree = "<group>"; };
+		F155B8122BC55396005905EE /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		F155B8142BC55492005905EE /* WordDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordDataManager.swift; sourceTree = "<group>"; };
+		F155B8162BC55595005905EE /* Words.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Words.plist; sourceTree = "<group>"; };
+		F155B81B2BC55BE3005905EE /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		F155B81C2BC55BE3005905EE /* Fredoka-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fredoka-Regular.ttf"; sourceTree = "<group>"; };
+		F155B81D2BC55BE3005905EE /* Fredoka-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fredoka-Medium.ttf"; sourceTree = "<group>"; };
+		F155B8222BC55BFA005905EE /* bgLoop.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = bgLoop.mov; sourceTree = "<group>"; };
+		F155B8242BC55D0A005905EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F1CA12132BC56A78006A427F /* CountdownTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownTimerView.swift; sourceTree = "<group>"; };
+		F1CA12152BC56E31006A427F /* HowToPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToPopup.swift; sourceTree = "<group>"; };
+		F1CA12172BC56F73006A427F /* PopupTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupTitle.swift; sourceTree = "<group>"; };
+		F1CA12192BC575F7006A427F /* PopupBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupBackground.swift; sourceTree = "<group>"; };
+		F1CA121B2BC5796F006A427F /* RoundSettingTextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundSettingTextFieldStyle.swift; sourceTree = "<group>"; };
+		F1CA121D2BC59640006A427F /* SongListPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongListPopup.swift; sourceTree = "<group>"; };
+		F1CA121F2BC596DD006A427F /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		F1CA12212BC598E0006A427F /* SongSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongSample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +138,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F155B8102BC5536C005905EE /* RealmSwift in Frameworks */,
+				F155B80E2BC5536C005905EE /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +147,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F125CB3F2BC69940009CB373 /* RealmSwift in Frameworks */,
+				F125CB3D2BC69940009CB373 /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,9 +162,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F125CB412BC6B2A7009CB373 /* View Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				F1CA12172BC56F73006A427F /* PopupTitle.swift */,
+				F1CA121B2BC5796F006A427F /* RoundSettingTextFieldStyle.swift */,
+			);
+			path = "View Modifiers";
+			sourceTree = "<group>";
+		};
 		F155B7A72BC463AC005905EE = {
 			isa = PBXGroup;
 			children = (
+				F125CB422BC6B576009CB373 /* Readme.md */,
 				F155B7B22BC463AC005905EE /* SampleCode */,
 				F155B7C32BC463AE005905EE /* SampleCodeTests */,
 				F155B7CD2BC463AE005905EE /* SampleCodeUITests */,
@@ -94,10 +195,20 @@
 		F155B7B22BC463AC005905EE /* SampleCode */ = {
 			isa = PBXGroup;
 			children = (
+				F155B8242BC55D0A005905EE /* Info.plist */,
 				F155B7B32BC463AC005905EE /* SampleCodeApp.swift */,
-				F155B7B52BC463AC005905EE /* ContentView.swift */,
-				F155B7B72BC463AE005905EE /* Assets.xcassets */,
+				F155B7FB2BC53E49005905EE /* Views */,
+				F155B8072BC54AB7005905EE /* Popups */,
+				F155B7FC2BC53E61005905EE /* Custom Components */,
+				F125CB412BC6B2A7009CB373 /* View Modifiers */,
+				F155B8032BC5449E005905EE /* UIKit Views */,
+				F155B8062BC549BA005905EE /* Representable Views */,
+				F155B7FA2BC53E2E005905EE /* ViewModels */,
+				F155B8112BC5538D005905EE /* Managers */,
+				F155B7F92BC53E1B005905EE /* Models */,
+				F155B81A2BC55B9B005905EE /* Resources */,
 				F155B7B92BC463AE005905EE /* Preview Content */,
+				F155B8162BC55595005905EE /* Words.plist */,
 			);
 			path = SampleCode;
 			sourceTree = "<group>";
@@ -114,6 +225,7 @@
 			isa = PBXGroup;
 			children = (
 				F155B7C42BC463AE005905EE /* SampleCodeTests.swift */,
+				F125CB322BC69227009CB373 /* GameTests.swift */,
 			);
 			path = SampleCodeTests;
 			sourceTree = "<group>";
@@ -125,6 +237,111 @@
 				F155B7D02BC463AE005905EE /* SampleCodeUITestsLaunchTests.swift */,
 			);
 			path = SampleCodeUITests;
+			sourceTree = "<group>";
+		};
+		F155B7F92BC53E1B005905EE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F155B7EB2BC53547005905EE /* Word.swift */,
+				F155B7F72BC53C58005905EE /* Player.swift */,
+				F1CA121F2BC596DD006A427F /* Song.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F155B7FA2BC53E2E005905EE /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F155B7DF2BC467A6005905EE /* AppCoordinator.swift */,
+				F155B7F12BC53829005905EE /* WordBank.swift */,
+				F155B7EF2BC53661005905EE /* TickTimer.swift */,
+				F155B7ED2BC5361C005905EE /* Game.swift */,
+				F155B7F52BC53BA7005905EE /* GameSettings.swift */,
+				F155B7F32BC53A94005905EE /* WordGenerator.swift */,
+				F155B80A2BC54D1A005905EE /* AdTracking.swift */,
+				F125CB2E2BC61119009CB373 /* SongListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F155B7FB2BC53E49005905EE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F155B7E12BC51D80005905EE /* CoordinatorView.swift */,
+				F155B7E32BC52597005905EE /* BannerAdView.swift */,
+				F155B7DD2BC46441005905EE /* HomeView.swift */,
+				F155B7E52BC52FB2005905EE /* GameFinishedView.swift */,
+				F155B7E92BC53513005905EE /* GameView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F155B7FC2BC53E61005905EE /* Custom Components */ = {
+			isa = PBXGroup;
+			children = (
+				F155B7E72BC531F1005905EE /* CapsuleButton.swift */,
+				F1CA12132BC56A78006A427F /* CountdownTimerView.swift */,
+				F1CA12192BC575F7006A427F /* PopupBackground.swift */,
+			);
+			path = "Custom Components";
+			sourceTree = "<group>";
+		};
+		F155B8032BC5449E005905EE /* UIKit Views */ = {
+			isa = PBXGroup;
+			children = (
+				F155B8012BC54496005905EE /* LoopVideoPlayerUIView.swift */,
+			);
+			path = "UIKit Views";
+			sourceTree = "<group>";
+		};
+		F155B8062BC549BA005905EE /* Representable Views */ = {
+			isa = PBXGroup;
+			children = (
+				F155B7FF2BC54467005905EE /* BackgroundVideoView.swift */,
+			);
+			path = "Representable Views";
+			sourceTree = "<group>";
+		};
+		F155B8072BC54AB7005905EE /* Popups */ = {
+			isa = PBXGroup;
+			children = (
+				F155B7FD2BC53FD4005905EE /* GameSettingsPopup.swift */,
+				F155B8082BC54AC4005905EE /* PauseView.swift */,
+				F1CA12152BC56E31006A427F /* HowToPopup.swift */,
+				F1CA121D2BC59640006A427F /* SongListPopup.swift */,
+				F125CB302BC6145B009CB373 /* SongItemView.swift */,
+			);
+			path = Popups;
+			sourceTree = "<group>";
+		};
+		F155B8112BC5538D005905EE /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				F155B8122BC55396005905EE /* RealmManager.swift */,
+				F155B8142BC55492005905EE /* WordDataManager.swift */,
+				F1CA12212BC598E0006A427F /* SongSample.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		F155B81A2BC55B9B005905EE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F155B8212BC55BE6005905EE /* Fonts */,
+				F155B8222BC55BFA005905EE /* bgLoop.mov */,
+				F155B7B72BC463AE005905EE /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F155B8212BC55BE6005905EE /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F155B81D2BC55BE3005905EE /* Fredoka-Medium.ttf */,
+				F155B81C2BC55BE3005905EE /* Fredoka-Regular.ttf */,
+				F155B81B2BC55BE3005905EE /* Pacifico-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +360,10 @@
 			dependencies = (
 			);
 			name = SampleCode;
+			packageProductDependencies = (
+				F155B80D2BC5536C005905EE /* Realm */,
+				F155B80F2BC5536C005905EE /* RealmSwift */,
+			);
 			productName = SampleCode;
 			productReference = F155B7B02BC463AC005905EE /* SampleCode.app */;
 			productType = "com.apple.product-type.application";
@@ -161,6 +382,10 @@
 				F155B7C22BC463AE005905EE /* PBXTargetDependency */,
 			);
 			name = SampleCodeTests;
+			packageProductDependencies = (
+				F125CB3C2BC69940009CB373 /* Realm */,
+				F125CB3E2BC69940009CB373 /* RealmSwift */,
+			);
 			productName = SampleCodeTests;
 			productReference = F155B7C02BC463AE005905EE /* SampleCodeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -215,6 +440,9 @@
 				Base,
 			);
 			mainGroup = F155B7A72BC463AC005905EE;
+			packageReferences = (
+				F155B80C2BC5536C005905EE /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = F155B7B12BC463AC005905EE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,7 +459,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F155B8172BC55595005905EE /* Words.plist in Resources */,
+				F155B81E2BC55BE3005905EE /* Pacifico-Regular.ttf in Resources */,
+				F155B8232BC55BFA005905EE /* bgLoop.mov in Resources */,
+				F155B81F2BC55BE3005905EE /* Fredoka-Regular.ttf in Resources */,
 				F155B7BB2BC463AE005905EE /* Preview Assets.xcassets in Resources */,
+				F155B8202BC55BE3005905EE /* Fredoka-Medium.ttf in Resources */,
+				F125CB432BC6B576009CB373 /* Readme.md in Resources */,
 				F155B7B82BC463AE005905EE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +491,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F155B7B62BC463AC005905EE /* ContentView.swift in Sources */,
+				F155B7E02BC467A6005905EE /* AppCoordinator.swift in Sources */,
+				F155B7FE2BC53FD4005905EE /* GameSettingsPopup.swift in Sources */,
+				F155B7E22BC51D80005905EE /* CoordinatorView.swift in Sources */,
+				F155B8022BC54496005905EE /* LoopVideoPlayerUIView.swift in Sources */,
+				F155B7F62BC53BA7005905EE /* GameSettings.swift in Sources */,
+				F155B8132BC55396005905EE /* RealmManager.swift in Sources */,
+				F1CA12222BC598E0006A427F /* SongSample.swift in Sources */,
+				F155B7F22BC53829005905EE /* WordBank.swift in Sources */,
+				F155B8092BC54AC4005905EE /* PauseView.swift in Sources */,
+				F1CA12142BC56A78006A427F /* CountdownTimerView.swift in Sources */,
+				F155B7F82BC53C58005905EE /* Player.swift in Sources */,
+				F155B8152BC55492005905EE /* WordDataManager.swift in Sources */,
+				F155B8002BC54467005905EE /* BackgroundVideoView.swift in Sources */,
+				F155B7F02BC53661005905EE /* TickTimer.swift in Sources */,
+				F155B7DE2BC46441005905EE /* HomeView.swift in Sources */,
+				F1CA121C2BC5796F006A427F /* RoundSettingTextFieldStyle.swift in Sources */,
+				F155B7E42BC52597005905EE /* BannerAdView.swift in Sources */,
+				F125CB2F2BC61119009CB373 /* SongListViewModel.swift in Sources */,
+				F155B7EA2BC53513005905EE /* GameView.swift in Sources */,
+				F155B7E82BC531F1005905EE /* CapsuleButton.swift in Sources */,
+				F125CB312BC6145B009CB373 /* SongItemView.swift in Sources */,
+				F155B7EE2BC5361C005905EE /* Game.swift in Sources */,
+				F1CA12162BC56E31006A427F /* HowToPopup.swift in Sources */,
+				F155B80B2BC54D1A005905EE /* AdTracking.swift in Sources */,
+				F155B7EC2BC53547005905EE /* Word.swift in Sources */,
+				F1CA12182BC56F73006A427F /* PopupTitle.swift in Sources */,
+				F155B7F42BC53A94005905EE /* WordGenerator.swift in Sources */,
+				F1CA12202BC596DD006A427F /* Song.swift in Sources */,
+				F155B7E62BC52FB2005905EE /* GameFinishedView.swift in Sources */,
+				F1CA121A2BC575F7006A427F /* PopupBackground.swift in Sources */,
 				F155B7B42BC463AC005905EE /* SampleCodeApp.swift in Sources */,
+				F1CA121E2BC59640006A427F /* SongListPopup.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +531,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				F155B7C52BC463AE005905EE /* SampleCodeTests.swift in Sources */,
+				F125CB332BC69227009CB373 /* GameTests.swift in Sources */,
+				F125CB342BC69244009CB373 /* GameSettings.swift in Sources */,
+				F125CB372BC6964C009CB373 /* WordGenerator.swift in Sources */,
+				F125CB352BC6928A009CB373 /* Game.swift in Sources */,
+				F125CB382BC69651009CB373 /* RealmManager.swift in Sources */,
+				F125CB392BC6966C009CB373 /* TickTimer.swift in Sources */,
+				F125CB402BC69E6F009CB373 /* Word.swift in Sources */,
+				F125CB3B2BC6969A009CB373 /* Player.swift in Sources */,
+				F125CB362BC69646009CB373 /* WordBank.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,11 +698,14 @@
 				DEVELOPMENT_TEAM = 5CUB8GB74A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SampleCode/Info.plist;
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "We use tracking technologies to provide you with personalized ads. Your data helps us show you relevant content and improve your overall app experience.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,11 +730,14 @@
 				DEVELOPMENT_TEAM = 5CUB8GB74A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SampleCode/Info.plist;
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "We use tracking technologies to provide you with personalized ads. Your data helps us show you relevant content and improve your overall app experience.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -588,6 +867,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F155B80C2BC5536C005905EE /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.47.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F125CB3C2BC69940009CB373 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F155B80C2BC5536C005905EE /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		F125CB3E2BC69940009CB373 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F155B80C2BC5536C005905EE /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		F155B80D2BC5536C005905EE /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F155B80C2BC5536C005905EE /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		F155B80F2BC5536C005905EE /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F155B80C2BC5536C005905EE /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F155B7A82BC463AC005905EE /* Project object */;
 }

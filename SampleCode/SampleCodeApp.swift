@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct SampleCodeApp: App {
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CoordinatorView()
+                .onAppear {
+                    WordDataManager.saveWordsFromPlist()
+                }
         }
     }
 }
